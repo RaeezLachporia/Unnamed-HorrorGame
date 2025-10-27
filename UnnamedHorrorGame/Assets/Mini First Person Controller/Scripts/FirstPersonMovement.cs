@@ -42,7 +42,10 @@ public class FirstPersonMovement : MonoBehaviour
         // Apply movement.
         rigidbody.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, rigidbody.linearVelocity.y, targetVelocity.y);
 
-        // Calculates forward direction value
-        //float forwardValue = Vector3.Dot(targetMovingSpeed,targetVelocity. )
+        // Calculate horizontal movement speed (ignoring vertical)
+        Vector3 horizontalVelocity = new Vector3(rigidbody.linearVelocity.x,0, rigidbody.linearVelocity.z);
+        float currentSpeed = horizontalVelocity.magnitude;
+        // Send to animator
+        animation.SetFloat("Speed", currentSpeed);
     }
 }
