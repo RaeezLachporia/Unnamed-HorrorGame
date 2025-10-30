@@ -1,18 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1102 &-7183640511260447079
+=======
+--- !u!1102 &-3959240308074313186
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: Crouched To Standing
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 2673512705637763518}
+=======
+  m_Name: Idle (5)
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -22,6 +33,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
   m_Motion: {fileID: -203655887218126122, guid: 4ce90ee93d6a72742a38e9eb6d5d23c9, type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -81,6 +93,8 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+=======
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
   m_Motion: {fileID: -203655887218126122, guid: 529331440c32712428cbc4c0af70a88b, type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -270,6 +284,7 @@ AnimatorStateMachine:
     m_Position: {x: 320, y: 140, z: 0}
   - serializedVersion: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_State: {fileID: -2919091189403713434}
     m_Position: {x: 510, y: 240, z: 0}
   - serializedVersion: 1
@@ -279,11 +294,16 @@ AnimatorStateMachine:
     m_State: {fileID: -7183640511260447079}
     m_Position: {x: 310, y: 320, z: 0}
 =======
+=======
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
     m_State: {fileID: 4633083798508084588}
     m_Position: {x: 350, y: 320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3877648844695373112}
     m_Position: {x: 147, y: 257, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
+=======
 >>>>>>> parent of c8eaa0d (Working on the crouching animation)
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -306,8 +326,12 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Transitions:
   - {fileID: -6797078679435752451}
+=======
+  m_Transitions: []
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
 =======
   m_Transitions: []
 >>>>>>> parent of c8eaa0d (Working on the crouching animation)
@@ -327,8 +351,14 @@ AnimatorState:
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!206 &5295248797807950743
 BlendTree:
+=======
+--- !u!1102 &4633083798508084588
+AnimatorState:
+  serializedVersion: 6
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
 =======
 --- !u!1102 &4633083798508084588
 AnimatorState:
@@ -338,6 +368,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Name: Blend Tree
   m_Childs:
@@ -365,6 +396,8 @@ AnimatorState:
   m_NormalizedBlendValues: 0
   m_BlendType: 0
 =======
+=======
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
   m_Name: Walking
   m_Speed: 1
   m_CycleOffset: 0
@@ -410,4 +443,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+<<<<<<< HEAD
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
+=======
 >>>>>>> parent of c8eaa0d (Working on the crouching animation)

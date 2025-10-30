@@ -82,7 +82,10 @@ public class Crouch : MonoBehaviour
                 IsCrouched = true;
                 SetSpeedOverrideActive(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 animator.SetBool("IsCrouching", Input.GetKey(KeyCode.LeftControl));
+=======
+>>>>>>> parent of c8eaa0d (Working on the crouching animation)
 =======
 >>>>>>> parent of c8eaa0d (Working on the crouching animation)
                 CrouchStart?.Invoke();
