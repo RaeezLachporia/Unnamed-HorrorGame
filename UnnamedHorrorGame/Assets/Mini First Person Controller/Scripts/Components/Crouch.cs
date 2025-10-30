@@ -21,7 +21,7 @@ public class Crouch : MonoBehaviour
     public CapsuleCollider colliderToLower;
     [HideInInspector]
     public float? defaultColliderHeight;
-
+    [SerializeField] private Animator animator;
     public bool IsCrouched { get; private set; }
     public event System.Action CrouchStart, CrouchEnd;
 
@@ -81,6 +81,7 @@ public class Crouch : MonoBehaviour
             {
                 IsCrouched = true;
                 SetSpeedOverrideActive(true);
+                animator.SetBool("IsCrouching", true);
                 CrouchStart?.Invoke();
             }
         }
