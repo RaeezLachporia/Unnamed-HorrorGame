@@ -81,7 +81,7 @@ public class Crouch : MonoBehaviour
             {
                 IsCrouched = true;
                 SetSpeedOverrideActive(true);
-                animator.SetBool("IsCrouching", true);
+                animator.SetBool("IsCrouching", Input.GetKey(KeyCode.LeftControl));
                 CrouchStart?.Invoke();
             }
         }
